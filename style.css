@@ -1,0 +1,52 @@
+body{
+    background-color: blue;
+}
+header{
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+.logo p{
+    font-size: 1.5em;
+    color: white;
+}
+.subscribe p{
+    font-size: 1.1em;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.box p{
+    display: flex;
+    align-items: flex-end;
+    font-size: 1em;
+}
+.box h1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.2em;
+
+}
